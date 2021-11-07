@@ -33,3 +33,37 @@
     font-family   : 'Bellefair', serif;
     letter-spacing: 0.0625em;
 }
+
+.position-main-text {
+    height  : calc(382rem / 16);
+    width   : calc(450rem / 16);
+    position: absolute;
+    bottom  : calc(131rem / 16);
+    left    : calc(165rem / 16);
+}
+
+.top-text {
+    text-transform: uppercase;
+    color         : #D0D6F9;
+    font-family   : 'Barlow Condensed', sans-serif;
+    font-size     : 1.75rem;
+    letter-spacing: calc(4.72rem / 16);
+    line-height   : calc(33.6rem / 16);
+}
+
+.mid-text {
+    text-transform: uppercase;
+    font-family   : 'Bellefair', serif;
+    font-size     : calc(150rem / 16);
+    line-height   : calc(171.9rem / 16);
+    margin-top    : calc(24rem / 16);
+    margin-bottom : calc(24rem / 16);
+    color         : #ffffff;
+}
+
+.bottom-text {
+    font-family: 'Barlow', sans-serif;
+    color      : #D0D6F9;
+    width      : calc(444rem / 16);
+    line-height: calc(32rem / 16);
+}
