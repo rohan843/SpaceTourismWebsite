@@ -1,0 +1,35 @@
+.home-explore {
+    color           : #0B0D17;
+    background-color: white;
+    width           : 17.125rem;
+    height          : 17.125rem;
+    border-radius   : 100%;
+    text-align      : center;
+    z-index         : 1;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.position-explore {
+    position: absolute;
+    right   : 4.8125rem;
+    bottom  : 2.6875rem;
+}
+
+.home-explore-backdrop {
+    background     : rgba(255, 255, 255, 0.1);
+    border-radius  : 100%;
+    width          : 28.125rem;
+    height         : 28.125rem;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.explore-text {
+    font-size     : 2em;
+    line-height   : 1.146em;
+    font-family   : 'Bellefair', serif;
+    letter-spacing: 0.0625em;
+}
